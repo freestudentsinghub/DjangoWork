@@ -1,0 +1,38 @@
+[
+    {
+        "model": "catalog.product",
+        "pk": 1,
+        "fields": {
+            "name": "Яблоко",
+            "description": "Самое вкусное яблоко",
+            "image": "images/A_tomato_with_a__nose__from_our_garden__Caleb_finished_his_face_.jpg",
+            "category": "Фрукт",
+            "cost": 120,
+            "created_at": "2024-12-03T10:41:56.082Z",
+            "updated_at": "2024-12-03T10:41:56.082Z",
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 2,
+        "fields": {
+            "name": "Помидор",
+            "description": "Самый вкусный помидор",
+            "image": "images/р╣Сoр╣С_.jpg",
+            "category": "Овощь",
+            "cost": 140,
+            "created_at": "2024-12-03T10:51:34.934Z",
+            "updated_at": "2024-12-03T10:51:34.934Z",
+        }
+    },
+    {
+        "model": "catalog.category",
+        "pk": 1,
+        "fields": {"name": "Яблоко", "description": "Самое вкусное яблоко"}
+    },
+    {
+        "model": "catalog.category",
+        "pk": 2,
+        "fields": {"name": "Помидор", "description": "Самый вкусный помидор"}
+    }
+]
